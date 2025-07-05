@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mago Studios Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Space Grotesk', sans-serif;
+      background: #fff;
+      color: #111;
+      line-height: 1.6;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem;
+      background: #f5f5f5;
+      border-bottom: 1px solid #ddd;
+    }
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #111;
+      font-weight: 600;
+    }
+    .hero {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .gallery img, .gallery video {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    footer {
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      background: #f5f5f5;
+      border-top: 1px solid #ddd;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div><strong>Mago Studios</strong></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#duka">duka</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#media">Media</a>
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Branding & Merchandise</h1>
+    <p>Creative solutions for bold ideas. Explore our work and duka unique designs.</p>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About</h2>
+    <p>Mago Studios is a branding and merchandising practice focused on story-driven design, blending digital and physical forms to create impact.</p>
+  </section>
+
+  <section id="duka" class="section">
+    <h2>duka</h2>
+    <p>Digital prints, limited-edition merch, brand packs and more coming soon.</p>
+  </section>
+
+  <section id="portfolio" class="section">
+    <h2>Portfolio</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/400x300" alt="Project 1" />
+      <img src="https://via.placeholder.com/400x300" alt="Project 2" />
+      <img src="https://via.placeholder.com/400x300" alt="Project 3" />
+      <img src="https://via.placeholder.com/400x300" alt="Project 4" />
+    </div>
+  </section>
+
+  <section id="media" class="section">
+    <h2>Media</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/400x300.gif" alt="Animated Gif 1" />
+      <video autoplay muted loop>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mago Studioss. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
